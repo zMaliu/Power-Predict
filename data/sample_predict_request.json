@@ -1,0 +1,191 @@
+{
+  "anchor_date": "2026-07-31",
+  "strict_dates": true,
+  "targets": [
+    "industry",
+    "resident"
+  ],
+  "include_total": true,
+  "weather": [
+    {
+      "date": "2026-08-01",
+      "tem": 27.3,
+      "tem_max": 31.06603484,
+      "tem_min": 28.5751256,
+      "rhum": 84.8,
+      "precip": 2.5,
+      "wind_speed": 1.8,
+      "weather_type": "雷阵雨"
+    },
+    {
+      "date": "2026-08-02",
+      "tem": 30.6,
+      "tem_max": 32.85828787,
+      "tem_min": 25.05692724,
+      "rhum": 88.9,
+      "precip": 0.9,
+      "wind_speed": 2.9,
+      "weather_type": "雷阵雨"
+    },
+    {
+      "date": "2026-08-03",
+      "tem": 28.1,
+      "tem_max": 31.43588688,
+      "tem_min": 25.94953813,
+      "rhum": 90.2,
+      "precip": 0.0,
+      "wind_speed": 3.2,
+      "weather_type": "雷阵雨"
+    },
+    {
+      "date": "2026-08-04",
+      "tem": 30.0,
+      "tem_max": 32.11628763,
+      "tem_min": 26.86495313,
+      "rhum": 93.5,
+      "precip": 0.4,
+      "wind_speed": 3.2,
+      "weather_type": "雷阵雨"
+    },
+    {
+      "date": "2026-08-05",
+      "tem": 25.6,
+      "tem_max": 30.39363833,
+      "tem_min": 27.22330986,
+      "rhum": 95.2,
+      "precip": 0.0,
+      "wind_speed": 3.3,
+      "weather_type": "阴"
+    },
+    {
+      "date": "2026-08-06",
+      "tem": 28.8,
+      "tem_max": 31.99666128,
+      "tem_min": 25.77829709,
+      "rhum": 87.6,
+      "precip": 6.4,
+      "wind_speed": 3.3,
+      "weather_type": "雷阵雨"
+    },
+    {
+      "date": "2026-08-07",
+      "tem": 28.2,
+      "tem_max": 31.72738778,
+      "tem_min": 25.93660998,
+      "rhum": 93.2,
+      "precip": 0.0,
+      "wind_speed": 3.2,
+      "weather_type": "多云"
+    },
+    {
+      "date": "2026-08-08",
+      "tem": 28.2,
+      "tem_max": 34.13580766,
+      "tem_min": 25.03112766,
+      "rhum": 88.5,
+      "precip": 0.0,
+      "wind_speed": 3.3,
+      "weather_type": "多云"
+    },
+    {
+      "date": "2026-08-09",
+      "tem": 28.6,
+      "tem_max": 33.46530718,
+      "tem_min": 26.14039628,
+      "rhum": 86.8,
+      "precip": 0.0,
+      "wind_speed": 2.9,
+      "weather_type": "多云"
+    },
+    {
+      "date": "2026-08-10",
+      "tem": 28.0,
+      "tem_max": 38.36106748,
+      "tem_min": 25.02585603,
+      "rhum": 87.5,
+      "precip": 0.0,
+      "wind_speed": 3.3,
+      "weather_type": "晴"
+    },
+    {
+      "date": "2026-08-11",
+      "tem": 29.0,
+      "tem_max": 39.30340595,
+      "tem_min": 27.08202575,
+      "rhum": 83.3,
+      "precip": 0.0,
+      "wind_speed": 3.3,
+      "weather_type": "多云"
+    },
+    {
+      "date": "2026-08-12",
+      "tem": 24.4,
+      "tem_max": 31.21416096,
+      "tem_min": 26.27170111,
+      "rhum": 97.0,
+      "precip": 13.2,
+      "wind_speed": 13.7,
+      "weather_type": "暴雨"
+    },
+    {
+      "date": "2026-08-13",
+      "tem": 24.4,
+      "tem_max": 27.18688775,
+      "tem_min": 26.37008328,
+      "rhum": 98.4,
+      "precip": 5.1,
+      "wind_speed": 1.8,
+      "weather_type": "大雨"
+    },
+    {
+      "date": "2026-08-14",
+      "tem": 25.6,
+      "tem_max": 31.09484617,
+      "tem_min": 26.14601765,
+      "rhum": 95.1,
+      "precip": 16.8,
+      "wind_speed": 2.5,
+      "weather_type": "暴雨"
+    },
+    {
+      "date": "2026-08-15",
+      "tem": 27.3,
+      "tem_max": 28.15500736,
+      "tem_min": 24.00156105,
+      "rhum": 97.7,
+      "precip": 2.6,
+      "wind_speed": 3.1,
+      "weather_type": "雷阵雨"
+    },
+    {
+      "date": "2026-08-16",
+      "tem": 25.5,
+      "tem_max": 31.96438124,
+      "tem_min": 24.20050791,
+      "rhum": 93.2,
+      "precip": 2.2,
+      "wind_speed": 3.3,
+      "weather_type": "雷阵雨"
+    },
+    {
+      "date": "2026-08-17",
+      "tem": 26.9,
+      "tem_max": 31.7082394,
+      "tem_min": 25.16783083,
+      "rhum": 72.2,
+      "precip": 0.0,
+      "wind_speed": 3.1,
+      "weather_type": "多云"
+    },
+    {
+      "date": "2026-08-18",
+      "tem": 25.8,
+      "tem_max": 33.85790821,
+      "tem_min": 24.39055645,
+      "rhum": 88.3,
+      "precip": 0.5,
+      "wind_speed": 2.8,
+      "weather_type": "雷阵雨"
+    }
+  ]
+}

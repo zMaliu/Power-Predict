@@ -1,0 +1,29 @@
+# 两个模型分别部署在两个端口（同一镜像，不同 FORECAST_TARGET）
+# industry → 8001
+# resident → 8002
+services:
+  industry:
+    build: .
+    image: power-forecast:1.0
+    container_name: power-forecast-industry
+    environment:
+      FORECAST_TARGET: industry
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./models/industry:/app/models/industry:ro
+      - ./data:/app/data:ro
+    restart: unless-stopped
+
+  resident:
+    build: .
+    image: power-forecast:1.0
+    container_name: power-forecast-resident
+    environment:
+      FORECAST_TARGET: resident
+    ports:
+      - "8002:8000"
+    volumes:
+      - ./models/resident:/app/models/resident:ro
+      - ./data:/app/data:ro
+    restart: unless-stopped
