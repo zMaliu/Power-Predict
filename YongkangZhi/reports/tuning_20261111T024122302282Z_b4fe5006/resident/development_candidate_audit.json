@@ -1,0 +1,440 @@
+[
+  {
+    "1": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1624,
+      "best_iteration": 745
+    },
+    "2": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1623,
+      "best_iteration": 430
+    },
+    "3": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1622,
+      "best_iteration": 430
+    },
+    "4": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1621,
+      "best_iteration": 482
+    },
+    "5": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1620,
+      "best_iteration": 501
+    },
+    "6": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1619,
+      "best_iteration": 390
+    },
+    "7": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1618,
+      "best_iteration": 379
+    },
+    "8": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1617,
+      "best_iteration": 435
+    },
+    "9": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1616,
+      "best_iteration": 476
+    },
+    "10": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1615,
+      "best_iteration": 422
+    },
+    "11": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1614,
+      "best_iteration": 300
+    },
+    "12": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1613,
+      "best_iteration": 351
+    },
+    "13": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1612,
+      "best_iteration": 369
+    },
+    "14": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1611,
+      "best_iteration": 355
+    },
+    "15": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1610,
+      "best_iteration": 355
+    },
+    "16": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1609,
+      "best_iteration": 358
+    },
+    "17": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1608,
+      "best_iteration": 617
+    },
+    "18": {
+      "cutoff": "2025-07-12",
+      "inner_train_label_max": "2025-06-12",
+      "early_stop_label_min": "2025-06-13",
+      "final_train_label_max": "2025-07-12",
+      "n_train": 1607,
+      "best_iteration": 430
+    }
+  },
+  {
+    "1": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1744,
+      "best_iteration": 374
+    },
+    "2": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1743,
+      "best_iteration": 195
+    },
+    "3": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1742,
+      "best_iteration": 145
+    },
+    "4": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1741,
+      "best_iteration": 154
+    },
+    "5": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1740,
+      "best_iteration": 155
+    },
+    "6": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1739,
+      "best_iteration": 140
+    },
+    "7": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1738,
+      "best_iteration": 135
+    },
+    "8": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1737,
+      "best_iteration": 440
+    },
+    "9": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1736,
+      "best_iteration": 155
+    },
+    "10": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1735,
+      "best_iteration": 134
+    },
+    "11": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1734,
+      "best_iteration": 125
+    },
+    "12": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1733,
+      "best_iteration": 136
+    },
+    "13": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1732,
+      "best_iteration": 134
+    },
+    "14": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1731,
+      "best_iteration": 133
+    },
+    "15": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1730,
+      "best_iteration": 124
+    },
+    "16": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1729,
+      "best_iteration": 144
+    },
+    "17": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1728,
+      "best_iteration": 683
+    },
+    "18": {
+      "cutoff": "2025-11-09",
+      "inner_train_label_max": "2025-10-10",
+      "early_stop_label_min": "2025-10-11",
+      "final_train_label_max": "2025-11-09",
+      "n_train": 1727,
+      "best_iteration": 124
+    }
+  },
+  {
+    "1": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1864,
+      "best_iteration": 70
+    },
+    "2": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1863,
+      "best_iteration": 37
+    },
+    "3": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1862,
+      "best_iteration": 21
+    },
+    "4": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1861,
+      "best_iteration": 18
+    },
+    "5": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1860,
+      "best_iteration": 18
+    },
+    "6": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1859,
+      "best_iteration": 16
+    },
+    "7": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1858,
+      "best_iteration": 13
+    },
+    "8": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1857,
+      "best_iteration": 16
+    },
+    "9": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1856,
+      "best_iteration": 15
+    },
+    "10": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1855,
+      "best_iteration": 13
+    },
+    "11": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1854,
+      "best_iteration": 14
+    },
+    "12": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1853,
+      "best_iteration": 15
+    },
+    "13": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1852,
+      "best_iteration": 17
+    },
+    "14": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1851,
+      "best_iteration": 15
+    },
+    "15": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1850,
+      "best_iteration": 15
+    },
+    "16": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1849,
+      "best_iteration": 15
+    },
+    "17": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1848,
+      "best_iteration": 13
+    },
+    "18": {
+      "cutoff": "2026-03-09",
+      "inner_train_label_max": "2026-02-07",
+      "early_stop_label_min": "2026-02-08",
+      "final_train_label_max": "2026-03-09",
+      "n_train": 1847,
+      "best_iteration": 14
+    }
+  }
+]

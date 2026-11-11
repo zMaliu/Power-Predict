@@ -1,0 +1,16 @@
+{
+  "health_ok": true,
+  "binding": "127.0.0.1",
+  "predictions": {
+    "industry": {
+      "status": 200,
+      "forecast_days": 18,
+      "weather_days_filled": 11
+    },
+    "resident": {
+      "status": 200,
+      "forecast_days": 18,
+      "weather_days_filled": 11
+    }
+  }
+}

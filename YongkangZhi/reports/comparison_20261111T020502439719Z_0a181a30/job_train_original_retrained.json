@@ -1,0 +1,11 @@
+{
+  "source": "C:\\projects\\Power-Predict",
+  "destination": "C:\\projects\\YongkangZhi\\reports\\comparison_20261111T020502439719Z_0a181a30\\original_retrained",
+  "task": "train",
+  "data_dir": "C:\\projects\\YongkangZhi\\data",
+  "model_dir": "C:\\projects\\YongkangZhi\\reports\\comparison_20261111T020502439719Z_0a181a30\\original_retrained\\models",
+  "weather": "C:\\projects\\YongkangZhi\\data\\demo_future_weather.csv",
+  "lgb_params": {
+    "num_threads": 1
+  }
+}

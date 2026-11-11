@@ -1,0 +1,54 @@
+{
+  "contract": "anchor_direct_v1",
+  "report": "C:\\projects\\YongkangZhi\\reports\\tuning_20261111T024122302282Z_b4fe5006\\report.json",
+  "horizon": 18,
+  "targets": [
+    "resident"
+  ],
+  "settings": {
+    "project_dir": "C:\\projects\\YongkangZhi",
+    "data_dir": "C:\\projects\\YongkangZhi\\data",
+    "model_dir": "C:\\projects\\YongkangZhi\\models\\baseline",
+    "training_dir": "C:\\projects\\YongkangZhi\\models\\runs",
+    "out_dir": "C:\\projects\\YongkangZhi\\outputs",
+    "future_weather_csv": "C:\\projects\\YongkangZhi\\data\\demo_future_weather.csv",
+    "lags": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      14,
+      21
+    ],
+    "roll_windows": [
+      7,
+      14
+    ],
+    "horizon": 18,
+    "val_days": 30,
+    "seed": 42,
+    "predict_strategy": {
+      "industry": "recursive",
+      "resident": "hybrid"
+    },
+    "log_transform": {
+      "industry": false,
+      "resident": true
+    },
+    "lgb_params": {
+      "objective": "regression",
+      "metric": "l2",
+      "learning_rate": 0.05,
+      "num_leaves": 63,
+      "max_depth": -1,
+      "feature_fraction": 0.9,
+      "bagging_fraction": 0.8,
+      "bagging_freq": 5,
+      "verbose": -1,
+      "n_estimators": 1000,
+      "early_stopping_rounds": 100,
+      "num_threads": 1
+    }
+  }
+}

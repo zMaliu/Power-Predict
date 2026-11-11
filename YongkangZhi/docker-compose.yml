@@ -1,0 +1,19 @@
+services:
+  industry:
+    build: .
+    environment:
+      FORECAST_TARGET: industry
+    ports:
+      - "127.0.0.1:8001:8000"
+    volumes:
+      - ./data:/app/data:ro
+      - ./models/baseline:/app/models/baseline:ro
+  resident:
+    build: .
+    environment:
+      FORECAST_TARGET: resident
+    ports:
+      - "127.0.0.1:8002:8000"
+    volumes:
+      - ./data:/app/data:ro
+      - ./models/baseline:/app/models/baseline:ro

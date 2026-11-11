@@ -1,0 +1,28 @@
+usage: tune.py [-h] [--project-dir PROJECT_DIR] [--data-dir DATA_DIR]
+               [--model-dir MODEL_DIR] [--output-dir OUTPUT_DIR]
+               [--training-dir TRAINING_DIR] [--weather WEATHER]
+               [--threads THREADS] [--targets {industry,resident}]
+               {train,predict,run,tune,serve,convert} ...
+
+日用电量18天预测
+
+positional arguments:
+  {train,predict,run,tune,serve,convert}
+    train               完整训练，输出到独立模型运行目录
+    predict             从CSV预测并保存到独立输出目录
+    run                 先训练，再使用本次模型预测
+    tune                Optuna搜索、严格时间回测及独立测试对比
+    serve               启动HTTP服务
+    convert             显式转换原始JSON，写入独立导入目录
+
+options:
+  -h, --help            show this help message and exit
+  --project-dir PROJECT_DIR
+  --data-dir DATA_DIR
+  --model-dir MODEL_DIR
+  --output-dir OUTPUT_DIR
+  --training-dir TRAINING_DIR
+  --weather WEATHER
+  --threads THREADS     LightGBM执行线程数；未传则沿用库默认行为
+  --targets {industry,resident}
+                        可重复指定；默认两个目标

@@ -1,0 +1,30 @@
+test_health_and_single_target_isolation (tests.test_application.ApiTests.test_health_and_single_target_isolation) ... ok
+test_invalid_and_strict_requests (tests.test_application.ApiTests.test_invalid_and_strict_requests) ... ok
+test_real_prediction_contract_and_weather_fill (tests.test_application.ApiTests.test_real_prediction_contract_and_weather_fill) ... ok
+test_unavailable_models_return_503 (tests.test_application.ApiTests.test_unavailable_models_return_503) ... ok
+test_invalid_configuration (tests.test_application.ConfigurationTests.test_invalid_configuration) ... ok
+test_path_resolution_has_no_io_or_mutation (tests.test_application.ConfigurationTests.test_path_resolution_has_no_io_or_mutation) ... ok
+test_explicit_imports_do_not_replace_existing_csv (tests.test_application.ConversionTests.test_explicit_imports_do_not_replace_existing_csv) ... ok
+test_lags_do_not_use_current_target (tests.test_application.FeatureTests.test_lags_do_not_use_current_target) ... ok
+test_numeric_metrics (tests.test_application.FeatureTests.test_numeric_metrics) ... ok
+test_both_targets_and_total (tests.test_application.ForecastTests.test_both_targets_and_total) ... ok
+test_hybrid_rain_without_hot_history_has_defined_baseline (tests.test_application.ForecastTests.test_hybrid_rain_without_hot_history_has_defined_baseline) ... ok
+test_invalid_weather_and_strategy (tests.test_application.ForecastTests.test_invalid_weather_and_strategy) ... ok
+test_missing_data_does_not_generate_or_overwrite (tests.test_application.ForecastTests.test_missing_data_does_not_generate_or_overwrite) ... ok
+test_recursive_log_transform_is_applied_once (tests.test_application.ForecastTests.test_recursive_log_transform_is_applied_once) ... ok
+test_repeated_prediction_outputs_are_isolated (tests.test_application.ForecastTests.test_repeated_prediction_outputs_are_isolated) ... ok
+test_seven_day_weather_completion (tests.test_application.ForecastTests.test_seven_day_weather_completion) ... ok
+test_missing_inputs_fail_before_creating_training_run (tests.test_application.TrainingTests.test_missing_inputs_fail_before_creating_training_run) ... ok
+test_repeated_real_training_uses_independent_model_directories (tests.test_application.TrainingTests.test_repeated_real_training_uses_independent_model_directories) ... ok
+test_future_target_mutations_cannot_change_origin_features (tests.test_tuning.AlignmentTests.test_future_target_mutations_cannot_change_origin_features) ... ok
+test_invalid_search_plan_rejected (tests.test_tuning.AlignmentTests.test_invalid_search_plan_rejected) ... ok
+test_label_date_split_and_inner_early_stop_are_before_origin (tests.test_tuning.AlignmentTests.test_label_date_split_and_inner_early_stop_are_before_origin) ... ok
+test_missing_calendar_day_rejected (tests.test_tuning.AlignmentTests.test_missing_calendar_day_rejected) ... ok
+test_plans_keep_all_development_labels_before_holdout (tests.test_tuning.AlignmentTests.test_plans_keep_all_development_labels_before_holdout) ... ok
+test_saved_aligned_model_matches_backtest_and_api_service (tests.test_tuning.AlignmentTests.test_saved_aligned_model_matches_backtest_and_api_service) ... ok
+test_real_search_outputs_selection_before_test_and_isolated_models (tests.test_tuning.SearchIntegrationTests.test_real_search_outputs_selection_before_test_and_isolated_models) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 4.710s
+
+OK

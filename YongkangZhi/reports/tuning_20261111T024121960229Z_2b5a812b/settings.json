@@ -1,0 +1,109 @@
+{
+  "settings": {
+    "project_dir": "C:\\projects\\YongkangZhi",
+    "data_dir": "C:\\projects\\YongkangZhi\\data",
+    "model_dir": "C:\\projects\\YongkangZhi\\models\\baseline",
+    "training_dir": "C:\\projects\\YongkangZhi\\models\\runs",
+    "out_dir": "C:\\projects\\YongkangZhi\\outputs",
+    "future_weather_csv": "C:\\projects\\YongkangZhi\\data\\demo_future_weather.csv",
+    "lags": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      14,
+      21
+    ],
+    "roll_windows": [
+      7,
+      14
+    ],
+    "horizon": 18,
+    "val_days": 30,
+    "seed": 42,
+    "predict_strategy": {
+      "industry": "recursive",
+      "resident": "hybrid"
+    },
+    "log_transform": {
+      "industry": false,
+      "resident": true
+    },
+    "lgb_params": {
+      "objective": "regression",
+      "metric": "l2",
+      "learning_rate": 0.05,
+      "num_leaves": 63,
+      "max_depth": -1,
+      "feature_fraction": 0.9,
+      "bagging_fraction": 0.8,
+      "bagging_freq": 5,
+      "verbose": -1,
+      "n_estimators": 1000,
+      "early_stopping_rounds": 100,
+      "num_threads": 1
+    }
+  },
+  "search": {
+    "trials": 30,
+    "folds": 3,
+    "cv_days": 54,
+    "cv_spacing": 120,
+    "holdout_days": 90,
+    "search_horizons": [
+      1,
+      7,
+      14,
+      18
+    ],
+    "max_estimators": 3000,
+    "compare_legacy": true
+  },
+  "plans": {
+    "industry": {
+      "folds": [
+        {
+          "cutoff": "2025-07-12",
+          "origins": [
+            "2025-07-12",
+            "2025-07-30",
+            "2025-08-17"
+          ],
+          "last_prediction": "2025-09-04"
+        },
+        {
+          "cutoff": "2025-11-09",
+          "origins": [
+            "2025-11-09",
+            "2025-11-27",
+            "2025-12-15"
+          ],
+          "last_prediction": "2026-01-02"
+        },
+        {
+          "cutoff": "2026-03-09",
+          "origins": [
+            "2026-03-09",
+            "2026-03-27",
+            "2026-04-14"
+          ],
+          "last_prediction": "2026-05-02"
+        }
+      ],
+      "test": {
+        "cutoff": "2026-05-02",
+        "origins": [
+          "2026-05-02",
+          "2026-05-20",
+          "2026-06-07",
+          "2026-06-25",
+          "2026-07-13"
+        ],
+        "last_prediction": "2026-07-31"
+      },
+      "holdout_start": "2026-05-03",
+      "holdout_end": "2026-07-31"
+    }
+  }
+}

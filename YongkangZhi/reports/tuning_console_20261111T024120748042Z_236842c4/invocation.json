@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "--targets",
+    "industry",
+    "--threads",
+    "1",
+    "tune",
+    "--trials",
+    "30"
+  ]
+}

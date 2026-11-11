@@ -1,0 +1,199 @@
+{
+  "environment": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "lightgbm": "4.7.0",
+    "scikit-learn": "1.9.1",
+    "fastapi": "0.162.4",
+    "joblib": "1.6.0",
+    "chinese-calendar": "1.12.1"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "forecast_start": "2026-08-01",
+  "forecast_end": "2026-08-18",
+  "source_before": {
+    "files": 77,
+    "unchanged": true
+  },
+  "path": "C:\\projects\\YongkangZhi\\reports\\comparison_20261111T020502439719Z_0a181a30",
+  "existing_models": {
+    "features": {
+      "industry": {
+        "exactly_equal": true,
+        "rows": 2038,
+        "columns": 65
+      },
+      "resident": {
+        "exactly_equal": true,
+        "rows": 2038,
+        "columns": 65
+      }
+    },
+    "forecasts": {
+      "18d_weather": {
+        "rows": 18,
+        "exactly_equal": true,
+        "columns": {
+          "全行业用电": {
+            "max_abs_difference": 0.0,
+            "mean_abs_difference": 0.0
+          },
+          "城乡居民用电": {
+            "max_abs_difference": 0.0,
+            "mean_abs_difference": 0.0
+          },
+          "全社会用电": {
+            "max_abs_difference": 0.0,
+            "mean_abs_difference": 0.0
+          }
+        }
+      },
+      "7d_weather": {
+        "rows": 18,
+        "exactly_equal": true,
+        "columns": {
+          "全行业用电": {
+            "max_abs_difference": 0.0,
+            "mean_abs_difference": 0.0
+          },
+          "城乡居民用电": {
+            "max_abs_difference": 0.0,
+            "mean_abs_difference": 0.0
+          },
+          "全社会用电": {
+            "max_abs_difference": 0.0,
+            "mean_abs_difference": 0.0
+          }
+        }
+      }
+    },
+    "api": {
+      "industry_18d_weather": {
+        "status": 200,
+        "exactly_equal": true
+      },
+      "resident_18d_weather": {
+        "status": 200,
+        "exactly_equal": true
+      },
+      "industry_7d_weather": {
+        "status": 200,
+        "exactly_equal": true
+      },
+      "resident_7d_weather": {
+        "status": 200,
+        "exactly_equal": true
+      }
+    },
+    "original_worker_seconds": 3.782069599999886
+  },
+  "historical_saved_responses": {
+    "resp_industry_18.json": {
+      "weather_days": 18,
+      "rows": 18,
+      "max_abs_difference": 62.809999999999945,
+      "mean_abs_difference": 14.93055555555553,
+      "exactly_equal": false
+    },
+    "resp_resident.json": {
+      "weather_days": 7,
+      "rows": 18,
+      "max_abs_difference": 104.49000000000012,
+      "mean_abs_difference": 22.337777777777774,
+      "exactly_equal": false
+    }
+  },
+  "retrained": {
+    "features": {
+      "industry": {
+        "exactly_equal": true,
+        "rows": 2038,
+        "columns": 65
+      },
+      "resident": {
+        "exactly_equal": true,
+        "rows": 2038,
+        "columns": 65
+      }
+    },
+    "forecasts": {
+      "18d_weather": {
+        "rows": 18,
+        "exactly_equal": true,
+        "columns": {
+          "全行业用电": {
+            "max_abs_difference": 0.0,
+            "mean_abs_difference": 0.0
+          },
+          "城乡居民用电": {
+            "max_abs_difference": 0.0,
+            "mean_abs_difference": 0.0
+          },
+          "全社会用电": {
+            "max_abs_difference": 0.0,
+            "mean_abs_difference": 0.0
+          }
+        }
+      },
+      "7d_weather": {
+        "rows": 18,
+        "exactly_equal": true,
+        "columns": {
+          "全行业用电": {
+            "max_abs_difference": 0.0,
+            "mean_abs_difference": 0.0
+          },
+          "城乡居民用电": {
+            "max_abs_difference": 0.0,
+            "mean_abs_difference": 0.0
+          },
+          "全社会用电": {
+            "max_abs_difference": 0.0,
+            "mean_abs_difference": 0.0
+          }
+        }
+      }
+    },
+    "api": {
+      "industry_18d_weather": {
+        "status": 200,
+        "exactly_equal": true
+      },
+      "resident_18d_weather": {
+        "status": 200,
+        "exactly_equal": true
+      },
+      "industry_7d_weather": {
+        "status": 200,
+        "exactly_equal": true
+      },
+      "resident_7d_weather": {
+        "status": 200,
+        "exactly_equal": true
+      }
+    },
+    "metrics_exactly_equal": true,
+    "original_seconds": 111.73831679999967,
+    "refactored_seconds": 152.16739469999993,
+    "model_dir": "C:\\projects\\YongkangZhi\\models\\runs\\train_20261111T020701342416Z_f9e87d8c",
+    "execution_threads": 1,
+    "n_estimators": 1000,
+    "horizon": 18,
+    "summary": {
+      "industry": {
+        "mae": 136.3854217910927,
+        "mape": 4.034513818820522,
+        "rmse": 170.46534356263186
+      },
+      "resident": {
+        "mae": 135.2812527845577,
+        "mape": 12.21797397050602,
+        "rmse": 166.73993890880683
+      }
+    }
+  },
+  "source_after": {
+    "files": 77,
+    "unchanged": true
+  }
+}
